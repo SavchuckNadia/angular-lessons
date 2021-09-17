@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 75px;
+  line-height: 70px;
+  background-color: #d3d3d32b;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 150px;
+  border-bottom: 1px solid lightgray;
+}
+
+.wrapper {
+  background-color: #f0f0f085;
+  padding: 10px;
+  width: 718px;
+  margin: 0px auto;
+}
+
+p {
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.badWords {
+  color: #bd1844;
+}
+
+#writeWord {
+  width: 456px;
+  height: 45px;
+  padding: 10px;
+}
+
+#writeText {
+  resize: none;
+  overflow: auto;
+  height: 100px;
+  padding: 10px;
+
+}
+
+.block-1,
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  width: 231px;
+}
+
+.btn {
+  width: 110px;
+  height: 45px;
+}
+
+.btnCenzor {
+  background-color: #33b238;
+  width: 100%;
+  height: 45px;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 16px;
+}
+
+.btnCenzor:hover {
+  background-color: #249328;
+}
+
+.btnCenzor:focus {
+  box-shadow: 0 0 0 4px rgba(19, 183, 19, 0.517);
+}
+
+.redBorder {
+  border: 2px solid #dd1f52;
+}

@@ -1,0 +1,10 @@
+.text{
+    color: red;
+    display: none;
+}
+.show{
+    display: block;
+}
+.blue {
+    color: blue;
+}
